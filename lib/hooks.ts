@@ -1,9 +1,6 @@
-import { useActiveSectionContext } from "@/context/active-section-context";
 import { useEffect, useState, useRef } from "react";
-import { useInView } from "react-intersection-observer";
-import type { SectionName } from "./types";
 
-function useSectionInView(home: string, number: number) {
+function useSectionInView() {
   const ref = useRef(null);
   const [inView, setInView] = useState(false);
 
@@ -26,5 +23,4 @@ function useSectionInView(home: string, number: number) {
 
   return { ref, inView };
 }
-
 export default useSectionInView;
