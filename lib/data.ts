@@ -45,7 +45,7 @@ export const experiencesData = [
     date: "February 2024 - September 2024",
   },
   {
-    title: "BeCode - Digital Spring",
+    title: "BeCode - Digital Sprint",
     location: "Liège, Belgium",
     description:
       "Learned the basics of web development, including HTML, CSS, and JavaScript." +

@@ -66,9 +66,10 @@ export default function Intro() {
         <span className="font-bold">Junior full-stack developer</span> with a
         passion for building websites.{" "}
         <span className="font-bold">
-          Intensive 7-months Full stack Web Development in BeCode.
+          I followed an intensive 7-months bootcamp Full stack Web Development
+          in BeCode.
         </span>{" "}
-        <span className="italic"></span>particularly focusing on{" "}
+        <span className="italic"></span>Focusing on{" "}
         <span className="underline">React with Next.js or Vite</span>.
       </motion.h1>
 
