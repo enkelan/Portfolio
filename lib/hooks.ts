@@ -23,4 +23,5 @@ function useSectionInView() {
 
   return { ref, inView };
 }
+
 export default useSectionInView;
