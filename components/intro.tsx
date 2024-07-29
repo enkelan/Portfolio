@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/eno.png"
-              alt="Ricardo portrait"
+              alt="Enkelan Rami"
               width="192"
               height="192"
               quality="95"
