@@ -17,3 +17,4 @@ html {
 .dark .borderBlack {
     @apply border border-white/10;
 }
+

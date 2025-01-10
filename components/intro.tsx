@@ -37,23 +37,9 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
 
@@ -63,18 +49,18 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Enkelan.</span> I'm a{" "}
-        <span className="font-bold">Junior full-stack developer</span> with a
+        <span className="font-bold">Junior Front-end developer</span> with a
         passion for building websites.{" "}
         <span className="font-bold">
           I followed an intensive 7-months bootcamp Full stack Web Development
-          in BeCode.
+          in BeCode. I am currently looking for a <span className='font-bold'>job as a Front-end developer.</span>
         </span>{" "}
         <span className="italic"></span>Focusing on{" "}
-        <span className="underline">React with Next.js or Vite</span>.
+        <span className="underline">React with Next.js</span>.
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{

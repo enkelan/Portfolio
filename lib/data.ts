@@ -1,6 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import HellDivers2 from "@/public/HellDivers2.png";
 
@@ -32,6 +30,17 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Pixel Drive",
+    location: "Liège, Belgium",
+    description:
+        "Built responsive one-page websites using React, TypeScript,\n" +
+        "      and Tailwind CSS.\n" +
+        "Worked on a 1-year project developing a website and app, \n" +
+        "      focusing on front-end functionality and user experience.",
+    icon: React.createElement(LuGraduationCap),
+    date: "September 2024 - December 2024",
+  },
   {
     title: "BeCode - Full Stack Developer",
     location: "Liège, Belgium",
@@ -96,13 +105,8 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "Sass",
-  "Php",
   "React.js",
   "Next.js",
-  "Vite",
   "Node.js",
-  "Git",
   "Tailwind",
-  "MySQL",
 ] as const;
